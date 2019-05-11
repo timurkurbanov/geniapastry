@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Evgenya Pastry</title>
+	<!-- Add meta tag to access responsive media queries: -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Add in the link to fontawesome -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+	<!-- Add in our stylesheet -->
+	<link rel="stylesheet" href="style/style.css">
+	<link rel='stylesheet' href='https://npmcdn.com/flickity@2/dist/flickity.css'>
+</head>
+<body>
+	 <main>
+		<div class="container wrapper">
+			<div class="logo">
+				<h1><span>Evgenya</span> Pastry</h1>
+			</div>
+			<p class="hamburger"><i class="fas fa-bars"></i></p>
+		  	<div class="menu">
+			  	<ul>
+				   <li class="exit-responsive"><i class="fas fa-times"></i></li>
+					 <li><a href="#us">About us</a></li>
+					 <li><a href="#cake">Éclairs & Cakes</a></li>
+					 <li><a href="#contacts">Contact</a></li>
+				  </ul>
+			  </div>
+	  </div>
+  	<section class="order wrapper">
+	  	<div class="ordersamples wrapper">
+				<h3>A whole new world of prettiness awaits... <br>Order samples from the latest seasonal collection of layer cakes and eclairs, all freshly made by the Evgenya Pastry’s expert team of pastry chefs.</h3>
+				<a class="button" href="#contacts">Order samples</a>
+		  </div>
+	  </section>
+	</main>
+ <!-- CAKES -->
+ <section class="lastblock">
+</section>
+<section class="profile" id="cake">
+	<div class="content-wrap">
+
+			<div class="summary wrapper">
+          <h3 class="cake">Cakes</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laboriosam officia blanditiis tempora sit fugiat molestiae iusto impedit ipsa cum, asperiores laborum, esse, doloribus explicabo! Autem, distinctio provident itaque non.</p>
+          <p>Links to stuff about you, if needed. <a href="#">link</a> and <a href="#">link</a>.</p>
+          <p>Or another paragraph!</p>
+      </div>
+</section>
+<section class="round">
+</section>
+<section class="profile">
+     <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false, "wrapAround": true }'>
+			  <img src="assets/4.jpg" alt="Cake" />
+			  <img src="assets/3.jpg" alt="Cake" />
+			  <img src="assets/2.jpg" alt="Cake" />
+			  <img src="assets/14.jpg" alt="Cake" />
+			</div>
+		<script src='https://npmcdn.com/flickity@2/dist/flickity.pkgd.js'></script>
+  	<script src="js/index.js"></script>
+   </div>
+</section>
+
+<!-- Éclairs -->
+
+<section class="profileTwo">
+	<div class="summaryTwo wrapper">
+		<h3>Éclairs</h3>
+		<p>[Profile summary here] Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laboriosam officia blanditiis tempora sit fugiat molestiae iusto impedit ipsa cum, asperiores laborum, esse, doloribus explicabo! Autem, distinctio provident itaque non.</p>
+		<p>Links to stuff about you, if needed. <a href="#">link</a> and <a href="#">link</a>.</p>
+		<p>Or another paragraph!</p>
+	</div>
+	<section class="roundOne">
+	</section>
+	<div class="eclairs"></div>
+ </section>
+
+<!-- Our clients -->
+<section class="lastblock">
+</section>
+<section class="profilethree" id="us">
+	<div class="summaryThree wrapper">
+			<h3>About us and our clients</h3>
+			<p>[Profile summary here] Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laboriosam officia blanditiis tempora sit fugiat molestiae iusto impedit ipsa cum, asperiores laborum, esse, doloribus explicabo! Autem, distinctio provident itaque non.</p>
+			<p>Links to stuff about you, if needed. <a href="#">link</a> and <a href="#">link</a>.</p>
+			<p>Or another paragraph!</p>
+	</div>
+	<section class="roundOne">
+	</section>
+	<div class="eclairs"></div>
+</section>
+
+<!-- CONTACT INFO -->
+    <section class="contact" id="contacts">
+      <div class="content-wrap">
+        
+        <div class="info">
+					<p>647.807.6515</p>
+					<p><a href="mailto:brothersveggies@gmail.com">brothersveggies@gmail.com</a></p>
+          <p>141 Varsity rd.<br>
+            Toronto, ON M6S 4P4
+          </p>
+        </div>
+
+        <footer>
+          <p class="copyright">Copyright &#169; 2016 I Love Fresh Inc.</p>
+        </footer>
+      </div>
+    </section>
+
+	<!-- Load in jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		// write a document ready
+		// write a function that listens to a click on the hamburger menu
+		// toggle class show on the menu
+		// write a function that listens to a click on the exit icon
+		// toggle class show on the menu
+
+		$(document).ready(function(){
+		   	$('.hamburger').on('click', function(){
+		   		// toggle class show on the menu
+		   		$('.menu').toggleClass('show');
+		   	});
+
+		   	$('.exit-responsive').on('click', function(){
+		   		// toggle class show on the menu
+		   		$('.menu').toggleClass('show');
+		   	});
+		});
+	</script>
+</body>
+</html>
