@@ -189,6 +189,8 @@ padding: 15px;
 	background-image: url("../assets/5.jpeg");
 	min-height: 40vh;
 	background-attachment: fixed;
+	background-position: 100% 1%;
+	background-size: cover; 
 }
 .summaryTwo p {
 	color: black;
@@ -216,6 +218,15 @@ padding: 15px;
 
 
 @media all and (max-width: 850px) {
+
+.eclairs {
+background-image: url("../assets/5.jpeg");
+min-height: 40vh;
+background-attachment: fixed;
+background-position: 100% 1%;
+background-size: cover; 
+}
+
 .hamburger,
 .exit-responsive {
 	display: block;
