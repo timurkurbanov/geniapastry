@@ -188,10 +188,7 @@ padding: 15px;
 .eclairs {
 	background-image: url("../assets/5.jpeg");
 	min-height: 40vh;
-	background-repeat: no-repeat;
 	background-attachment: fixed;
-	/* background-position: 100% 1%; */
-	background-size: cover; 
 }
 .summaryTwo p {
 	color: black;
