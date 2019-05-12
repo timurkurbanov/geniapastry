@@ -188,10 +188,18 @@ padding: 15px;
 .eclairs {
 	background-image: url("../assets/5.jpeg");
 	min-height: 40vh;
-	background-attachment: fixed;
-	background-position: 100% 1%;
 	background-size: cover; 
 }
+
+.eclairsTwo {
+	background-image: url("../assets/55.jpg");
+	min-height: 40vh;
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
 .summaryTwo p {
 	color: black;
 }
@@ -218,18 +226,6 @@ padding: 15px;
 
 
 @media all and (max-width: 850px) {
-
-.eclairs {
-background-image: url("../assets/5.jpeg");
-min-height: 40vh;
-background-attachment: fixed;
-background-position: 100% 1%;
-background-size: cover; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-
-}
 
 .hamburger,
 .exit-responsive {
