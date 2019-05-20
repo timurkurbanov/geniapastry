@@ -44,7 +44,7 @@ main {
 	align-items: center;
 }
 .button {
-	padding: 0;
+	padding-left: 1px;
 	max-width: 20%;
 }
 h1, a {
@@ -227,9 +227,10 @@ svg {
 }
 .filled-heading {
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 5em;
-    line-height: 0.9;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+    font-size: 4.5em;
+    line-height: 1;
 }
 
 /* Animate the background shapes */
@@ -251,10 +252,17 @@ svg {
 #textClip text:nth-of-type(n + 7):nth-of-type(-n + 9) {
     animation: showThird 12s infinite;
 }
+/*dark mode*/
+.dark {
+	color: white
+}
+
+
+
 /* Media Query */
 
 
-@media all and (max-width: 850px) {
+@media all and (max-width: 1350px) {
 
 .hamburger,
 .exit-responsive {
