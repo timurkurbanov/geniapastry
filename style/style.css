@@ -145,7 +145,7 @@ a:hover {
 
   }
 .content-wrap {
-  	display: inline-block;
+  display: inline-block;
 }
 .profile, .profileTwo p {
 	background: white;
@@ -179,9 +179,7 @@ padding: 15px;
 .content-wrap {
   display: block;
 }
-.summary {
-	max-width: 100%;
-}
+
 /* ECLAIRS
 ----------------------*/
 
@@ -210,7 +208,7 @@ padding: 15px;
 /* CONTACT & FOOTER 
 --------------------*/
 .email {
-	font-size: 0.6em;
+	font-size: 1em;
 }
 
 .contact {
@@ -252,12 +250,6 @@ svg {
 #textClip text:nth-of-type(n + 7):nth-of-type(-n + 9) {
     animation: showThird 12s infinite;
 }
-/*dark mode*/
-.dark {
-	color: white
-}
-
-
 
 /* Media Query */
 
@@ -267,7 +259,7 @@ svg {
 .hamburger,
 .exit-responsive {
 	display: block;
-	font-size: 25px;
+	font-size: 40px;
 	padding-left: 15px;
 }	
 .menu {
@@ -315,4 +307,5 @@ svg {
         opacity: 1;
     }
     0%, 66%, 100% { opacity: 0; }
+}
 }
