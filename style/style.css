@@ -254,11 +254,6 @@ svg {
     animation: showThird 12s infinite;
 }
 
-/* Media Query */
-
-
-@media all and (max-width: 1550px) {
-
 .hamburger,
 .exit-responsive {
 	display: block;
