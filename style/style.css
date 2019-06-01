@@ -5,12 +5,12 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 body {
-	color: white;
+	color: #ffffff;
 	font-size: 1em;
 	margin: 0;
 }
 .view {
-	overflow: hidden;
+	display: block;
 }
 
 main {
@@ -226,17 +226,6 @@ padding: 15px;
   padding-bottom: 1em;
   width: 100%;
 }
-svg {
-    width: 100%;
-}
-.filled-heading {
-    text-transform: uppercase;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 900;
-    font-size: 4.5em;
-    line-height: 1;
-}
-
 
 .hamburger,
 .exit-responsive {
