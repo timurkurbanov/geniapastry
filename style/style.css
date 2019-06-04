@@ -46,7 +46,10 @@ a:hover {
 	color: red;
 }
 
-
+.hamburger:hover{
+	color: red;
+	transition: color 1s ease;
+}
 .hamburger,
 .exit-responsive {
 	display: none;
@@ -127,7 +130,7 @@ main {
 }
 .info {
 	text-align: center;
-	line-height: 1.8em;
+	line-height: -0.2em;
 	height: 10em;
 }
 
@@ -298,7 +301,7 @@ h1 {
 }
 
 .footer-section {
-	background-color: rgb(162, 50, 28);
+	background-color: rgb(205, 61, 33);
 	margin-bottom: -3em;
 }
 /*first page*/
