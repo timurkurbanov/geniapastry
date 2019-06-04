@@ -5,34 +5,39 @@
 	<title>Evgenya Pastry</title>
 	<!-- Add meta tag to access responsive media queries: -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- Add in the link to fontawesome -->
-	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
 	<!-- Add in our stylesheet -->
 	<link rel="stylesheet" href="style/style.css">
 	<link rel='stylesheet' href='https://npmcdn.com/flickity@2/dist/flickity.css'>
 </head>
 <body>
-	 <main>
-		<div class="container wrapper">
-			<div class="logo">
-				<h1><span>Evgenya</span> Pastry</h1>
+	<header class="clearfix">
+		<nav class="header_main">
+			<div class="wrapper flexContainer">
+					<div class="logo">
+							<h1><span>Evgenya</span> Pastry</h1>
+					</div>
 			</div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="container wrapper">
 			<p class="hamburger"><i class="fas fa-bars"></i></p>
-		  	<div class="menu">
-			  	<ul>
-				   <li class="exit-responsive"><i class="fas fa-times"></i></li>
-					 <li><a href="#us">About us</a></li>
-					 <li><a href="#cake">Éclairs & Cakes</a></li>
-					 <li><a href="#contacts">Contact</a></li>
-					</ul>
-			  </div>
+			<div class="menu">
+				<ul>
+					<li class="exit-responsive"><i class="fas fa-times"></i></li>
+					<li><a href="#us">About us</a></li>
+					<li><a href="#cake">Éclairs & Cakes</a></li>
+					<li><a href="#contacts">Contact</a></li>
+
+				</ul>
+			</div>
 		</div>
 		
 	</section>
-  	<section class="order wrapper">
-	  	<div class="ordersamples wrapper">
+	<section class="order wrapper">
+		<div class="ordersamples wrapper">
 				<div class="view">
 					<svg viewbox="0 0 700 225">
 						<clipPath id="textClip" class="filled-heading">
@@ -75,11 +80,11 @@
 
 				</div>
 				<a class="button" href="https://calendly.com/geniapastry/30min">Order samples</a>
-		  </div>
-	  </section>
+			</div>
+		</section>
 	</main>
- <!-- CAKES -->
- <section class="lastblock">
+<!-- CAKES -->
+<section class="lastblock">
 </section>
 <section class="profile" id="cake">
 		<div class="summary wrapper">
@@ -90,29 +95,29 @@
 <section class="round">
 </section>
 <section class="profile">
-     <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false, "wrapAround": true }'>
-			  <img src="assets/4.jpg" alt="Cake" />
-			  <img src="assets/3.jpg" alt="Cake" />
-			  <img src="assets/2.JPG" alt="Cake" />
-			  <img src="assets/14.JPG" alt="Cake" />
+    <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false, "wrapAround": true }'>
+			<img src="assets/4.jpg" alt="Cake" />
+			<img src="assets/3.jpg" alt="Cake" />
+			<img src="assets/2.JPG" alt="Cake" />
+			<img src="assets/14.JPG" alt="Cake" />
 			</div>
 		<script src='https://npmcdn.com/flickity@2/dist/flickity.pkgd.js'></script>
-  	<script src="js/index.js"></script>
-   </div>
+  <script src="js/index.js"></script>
+  </div>
 </section>
 
 <!-- Éclairs -->
 
-<section class="profileTwo">
-	<div class="summaryTwo wrapper">
-		<h3>Éclairs</h3>
-		<p>Evgenya's éclairs are hand-crafted and baked throughout the day and can even be filled upon ordering for maximum crispiness.</p>
-		<p>Flavours include salted butter with caramel, pistachio and regularly changing specials.</p>
-	</div>
-	<section class="roundOne">
+	<section class="profileTwo">
+		<div class="summaryTwo wrapper">
+			<h3>Éclairs</h3>
+			<p>Evgenya's éclairs are hand-crafted and baked throughout the day and can even be filled upon ordering for maximum crispiness.</p>
+			<p>Flavours include salted butter with caramel, pistachio and regularly changing specials.</p>
+		</div>
+		<section class="roundOne">
+		</section>
+		<div class="eclairsTwo"></div>
 	</section>
-	<div class="eclairsTwo"></div>
- </section>
 
 <!-- Our clients -->
 <section class="lastblock">
@@ -128,22 +133,23 @@
 	</section>
 	<div class="eclairs"></div>
 </section>
-
 <!-- CONTACT INFO -->
     <section class="contact" id="contacts">
+				<section class="lastblock-footer"></section>
       <div class="content-wrap">
         
         <div class="info">
-					<p>647.807.6515</p>
+					<p>+1.647.807.6515</p>
 					<p><a class="email" href="mailto:brothersveggies@gmail.com">email us</a></p>
           <p>141 Varsity rd.<br>
             Toronto, ON M6S 4P4
           </p>
         </div>
 
-        <footer class="wrapper">
-          <p class="copyright">Copyright &#169; 2016 I Love Fresh Inc.</p>
-        </footer>
+        <footer class="footer-section">
+          <p class="copyright">Copyright &#169; 2016 Evgenya Pastry Inc.</p>
+				</section>
+				</footer>
       </div>
     </section>
 
@@ -157,16 +163,16 @@
 		// toggle class show on the menu
 
 		$(document).ready(function(){
-			$('.hamburger').on('click', function(){
-				// toggle class show on the menu
-				$('.menu').toggleClass('show');
-			});
+		   	$('.hamburger').on('click', function(){
+		   		// toggle class show on the menu
+		   		$('.menu').toggleClass('show');
+		   	});
 
-			$('.exit-responsive').on('click', function(){
-				// toggle class show on the menu
-				$('.menu').toggleClass('show');
-			});
-	});
+		   	$('.exit-responsive').on('click', function(){
+		   		// toggle class show on the menu
+		   		$('.menu').toggleClass('show');
+		   	});
+		});
 	</script>
 </body>
 </html>
