@@ -55,6 +55,10 @@ a:hover {
 	display: none;
 	color: white;
 }
+.exit-responsive {
+	margin-left: 90%;
+	margin-top: 1em;
+}
 
 .show.menu {
 	display: block;
@@ -68,7 +72,7 @@ a:hover {
 	.hamburger,
 	.exit-responsive {
 		display: block;
-		font-size: 25px;
+		font-size: 35px;
 	}
 
 	.menu {
@@ -78,7 +82,7 @@ a:hover {
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: rgba(0,0,0,0.99);
+		background-color: #EE5335;
 		color: white;
 	}
 
